@@ -1,6 +1,7 @@
 # Simple_ATM_Controller
 
-This project implements a simple ATM controller.
+This project implements a simple ATM controller.  
+Write code for a simple ATM. It doesn't need any UI (either graphical or console), but a controller should be implemented and tested.
 
 ## Usage
 
