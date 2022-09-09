@@ -1,4 +1,6 @@
-   
+import sys
+sys.path.append("../")
+
 class ATMController():
     def __init__(self, bank_api, card_reader, ui, cash_bin, log_fun=None):
         self._bank_api=bank_api
@@ -547,4 +549,7 @@ class ATMController():
         self._log("stage_withdraw_final: Done")
         return 0
     
-# atmcon=ATMController()
+# if __name__ == "__main__":
+#     from src import bank_api, card_reader, ui, cash_bin
+#     atmcon=ATMController(bank_api, card_reader, ui, cash_bin, log_fun=None)
+#     atmcon.loop()
